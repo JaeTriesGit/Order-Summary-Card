@@ -147,3 +147,13 @@ body{
         cursor:pointer;
     }
 }
+
+@media screen and (max-width: 768px) {
+    body{
+        background-image:url(./imgs/pattern-background-mobile.svg)
+    }
+
+    #Payment{
+        font-size:2vh;
+    }
+}
